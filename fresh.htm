@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>form validation</title>
+<link rel='stylesheet' href='fresh.css' type='text/css' />
+<script src="fresh.js"></script>
+</head>
+<body>
+<div class="formclass">  
+<h1><center>Registration Form</center></h1>
+<form name="registration" method="post"  onsubmit="return formValidation()" >  
+<b>USERID</b><span class="required">*</span> <input type="text" name="userid" onblur="formValidation()"/>
+<li id="id1"></li>
+<b>PASSWORD</b><span class="required">*</span> <input type="passid" name="passid" onblur="formValidation()" />
+<li id="id2"></li><br/>
+<b>NAME</b><span class="required">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" onblur="formValidation()" />
+<li id="id3"></li><br/>
+<b>ADDRESS:</b><input type="text" name="add" onblur="formValidation()">
+<li id="id4"></li><br/>
+<b>COUNTRY</b><span class="required">*</span><select name="country"><li id="id5"></li>
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select>
+
+
+<b>ZIP CODE</b>:<input type="text" name="zip" onblur="formValidation()" /><li id="id6"></li><br/>
+<b>EMAIL</b><span class="required">*</span><input type="text" name="email" size="50" onblur="formValidation()"/><li id="id7"></li><br/>
+<b>SEX</b><span class="required">*</span><input type="radio" name="msex" value="Male" onblur="formValidation()"/><span>Male</span>
+<input type="radio" name="fsex" value="Female" /><span>Female</span><li id="id8"></li><br/><br/>
+<b>Language</b><span class="required">*</span><input type="checkbox" name="en" value="en" checked /><span>English</span>
+<input type="checkbox" name="nonen" value="noen" /><span>Non English</span><br/><br/>
+<b>ABOUT:</b><textarea name="desc" id="desc"></textarea></li><br/><br/>
+<span class="privacy-policy">
+     <input type="checkbox" name="privacy">You agree to our Terms and Policy. 
+     </span><br/>
+
+
+<input type="submit" value="register"/> <br/>
+ 
+</form>  
+</div>
+</body></html>

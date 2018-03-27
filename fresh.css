@@ -1,0 +1,62 @@
+.formclass{
+    width:450px;
+    padding:50px;
+    margin:60px auto;
+    background: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.formclass input[type="button"]:hover, 
+.formclass input[type="submit"]:hover{
+    background: #2A6881;
+
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.formclass .privacy-policy{
+    float: right;
+    width: 250px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #4D4D4D;
+    margin-top: 10px;
+    text-align: right;
+}.formclass input[type="text"],
+.formclass input[type="date"],
+.formclass input[type="datetime"],
+.formclass input[type="email"],
+.formclass input[type="number"],
+.formclass input[type="search"],
+.formclass input[type="time"],
+.formclass input[type="url"],
+.formclass input[type="password"],
+.formclass textarea,
+.formclass select {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+.formclass textarea{
+    width:250px;
+    height:100px;
+}
+.formclass .required{
+    color:red;
+}
+.formclass{
+background:#8ca395;
+}
